@@ -1,0 +1,17 @@
+{
+  "globals": {
+    "fpp_version": "readonly"
+  },
+  "rules": {
+    "comma-dangle": [
+      "error",
+      "always-multiline"
+    ]
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "env": {
+    "es6": true
+  }
+}

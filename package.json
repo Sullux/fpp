@@ -1,0 +1,25 @@
+{
+  "name": "fpp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Sullux/fpp.git",
+  "author": "Charles Sullivan <sullux@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --verbose --passWithNoTests",
+    "integration": "yarn start -- --test",
+    "lint": "yarn standardx",
+    "fix": "yarn standardx --fix",
+    "build": "node ./build.js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "standardx": "^7.0.0"
+  },
+  "standardx": {
+    "env": [
+      "jest",
+      "node"
+    ]
+  }
+}
